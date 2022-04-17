@@ -1,0 +1,4 @@
+$git init$
+{
+    initialization git bash
+}
