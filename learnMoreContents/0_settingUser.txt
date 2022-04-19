@@ -1,8 +1,12 @@
-$set user$
+@set user
+$git config --global user.name "John Doe"$
 {
-    git config --global user.name "John Doe"
-    git config --global user.email johndoe@example.com
+    set user name
+    #if you want to use git repositories you must setup your personal information
 }
-#if you want to use git repositories you must setup your personal information
-#GIT needs your name and email address
+$git config --global user.email johndoe@example.com$
+{
+    set user email
+    #if you want to use git repositories you must setup your personal information
+}
 
